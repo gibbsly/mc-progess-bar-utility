@@ -1,5 +1,5 @@
 #summoning entity
-execute at @p run summon minecraft:armor_stand ~ -16 ~ {UUIDLeast:676962l,UUIDMost:0l,CustomName:'{"text":""}',Team:"load_bar.main",Marker:1b,Invisible:1b}
+execute at @p run summon minecraft:armor_stand ~ -16 ~ {UUID:[I;0,0,0,676962],UUIDLeast:676962l,UUIDMost:0l,CustomName:'{"text":""}',Team:"load_bar.main",Marker:1b,Invisible:1b}
 
 #displaying bar based on number
 function load_bar:bars/0to100
